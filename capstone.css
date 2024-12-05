@@ -1,0 +1,20 @@
+.bebas-neue-regular {
+
+}
+
+    
+nav{    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.navbuttons {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        word-spacing: 20px;
+        font-size: 10px;
+        margin-left: 200px;
+        font-family: Bebas
+        }        
+    
