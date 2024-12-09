@@ -1,20 +1,174 @@
-.bebas-neue-regular {
-
+@font-face {
+    font-family:"Bebas-Neue";
+    src: url(bebas-neue/BebasNeue-Regular.ttf)
+}
+@font-face {
+    font-family:'RobotoMono';
+    src: url(Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
 }
 
+body {
+    margin: 0 20px;
+}
+
+content {
+    width: 1440px; ;
+    height:3863px ;
+    margin: 30px 30px;
+}
     
-nav{    
+nav {   font-family: 'Bebas-Neue';
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 10px;
     }
+
+.nav-head {
+    font-size: 42px;
+    margin-left: 20px;
+}
+
 .navbuttons {
-        font-family: "Bebas Neue", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        word-spacing: 20px;
-        font-size: 10px;
-        margin-left: 200px;
-        font-family: Bebas
+
+        font-family:'Bebas-Neue';
+        word-spacing: 5px;
+        font-size: 25px;
+        margin-left: auto;
+        margin-right: 20px;
         }        
     
+.tit-le {
+    margin-top: 70px;
+    font-family: 'Bebas-Neue';
+    font-weight: lighter;
+    font-size: 120px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: auto;
+    height: auto;
+}
+
+.big-img {
+    width: 100%;
+    height:auto ;
+    margin-bottom: 96px;
+
+}
+
+.navbuttons:hover{
+    cursor: pointer;
+}
+
+.home {
+    background-color: white;
+    font-family: 'Bebas-Neue';
+    border:none;
+    font-size: 28px;
+}
+
+.home:hover {
+    cursor: pointer;
+}
+
+.img-grid {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 40px;
+    column-gap: 20px;
+    margin: 10px;
+}
+
+.image-grid {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.description {
+    margin: 96px;
+    font-family: 'Bebas-Neue';
+    size: auto;
+    font-size:46px ;
+    text-align: center;
+    padding: 96px;
+}
+
+
+.spacer {
+    background-color: white;
+    width: 648px;
+    height: 154px;
+}
+
+.welcome {
+    display: flex;
+    font-size: 24px;
+    font-family:'RobotoMono';
+    width: 1344px;
+    height: 250px;
+    line-height: 32px;
+    padding: 48px;
+
+}
+
+.bottomimg {
+    background-blend-mode: color-burn;
+    
+}
+
+.connect {
+
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: -1%;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'Bebas-Neue';
+}
+
+.subscribe {
+    background-color: black;
+    width: 147px;
+    height: 48px;
+    margin-left: 12px ;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 8px;
+    font-family:'RobotoMono' ;
+
+}
+
+.updates {
+    justify-content: center;
+
+}
+
+.contactme {
+    width: 169px;
+    height:48px ;
+    justify-content: end;
+    background-color: white;
+    font-family: 'RobotoMono';
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 12px 24px;
+    border: 1px solid black;
+
+}
+
+.al {
+    margin-left: auto;
+    margin-right: 10px;
+
+
+}
+
+.copyright
+
