@@ -108,33 +108,25 @@ nav {   font-family: 'Bebas-Neue';
     display: flex;
     font-size: 24px;
     font-family:'RobotoMono';
-    width: 1344px;
-    height: 250px;
-    line-height: 32px;
-    padding: 48px;
+    width: 100%;
+    height: auto;
+    line-height: 32px
+
 
 }
 
-.bottomimg {
-    background-blend-mode: color-burn;
-    
-}
-
-.connect {
-
+.letsconnect {
     font-size: 34px;
     font-weight: 400;
-    letter-spacing: -1%;
-    line-height: 40px;
-    text-align: center;
-    font-family: 'Bebas-Neue';
+    font-family: 'Bebas-Neue'
 }
+
+
 
 .subscribe {
     background-color: black;
     width: 147px;
     height: 48px;
-    margin-left: 12px ;
     color: white;
     text-align: center;
     justify-content: center;
@@ -144,10 +136,64 @@ nav {   font-family: 'Bebas-Neue';
 
 }
 
-.updates {
+.emailbar {
     justify-content: center;
+    align-content: center;
+    width: 431px;
+    height: 48px;
 
 }
+.frame {
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.handles {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.container {
+        position: relative;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+}
+
+.land {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay {
+    align-content: center;
+    align-items: center;
+    position:absolute;
+    top:0;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center; 
+  }
+
+
+
+
+
+
+
+
+
 
 .contactme {
     width: 169px;
@@ -170,5 +216,17 @@ nav {   font-family: 'Bebas-Neue';
 
 }
 
-.copyright
+
+.copyright {
+    font-family:'Bebas-Neue';
+    font-size: 26px;
+}
+
+footer {
+    padding: 96px 0 24px 96px 0 ;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
 
