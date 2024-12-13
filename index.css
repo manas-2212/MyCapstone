@@ -1,0 +1,290 @@
+@font-face {
+    font-family:"Bebas-Neue";
+    src: url(bebas-neue/BebasNeue-Regular.ttf)
+}
+@font-face {
+    font-family:'RobotoMono';
+    src: url(Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+.landkarado {
+    
+
+}
+    
+nav {   font-family: 'Bebas-Neue';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+.nav-head {
+    font-size: 3vw;
+    margin-left: 20px;
+}
+
+.navbuttons {
+
+        font-family:'Bebas-Neue';
+        word-spacing: 5px;
+        font-size: 25px;
+        margin-left: auto;
+        margin-right: 20px;
+        }        
+    
+.home:hover {
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.Landing-Page {
+    margin-left: 40px;
+    width: 100%;
+    padding: 96px 0;
+}
+
+.tit-le {
+
+    font-family: 'Bebas-Neue';
+    font-weight: lighter;
+    font-size: 8vw;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+.big-img {
+    width: 100%;
+    height:auto ;
+    margin-bottom: 96px;
+    justify-items: center;
+
+}
+
+.navbuttons:hover{
+    cursor: pointer;
+}
+
+.home {
+    background-color: white;
+    font-family: 'Bebas-Neue';
+    border:none;
+    font-size: 2vw;
+    transition: 0.3s;
+}
+
+.home:hover {
+    cursor: pointer;
+}
+
+.img-grid {
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 48px;
+    column-gap: 48px;
+    justify-content: center;
+    margin: 0 15px;
+
+}
+.image-grid:hover {
+    transform: scale(1.05);
+    border-radius: 2px;
+    box-shadow: ;
+} 
+
+.imagecontainer {
+    margin-left: 20px;
+
+}
+
+
+.image-grid {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    transition: transform 0.2s;
+}
+
+.projecttitle {
+    font-size: 1.5vw ;
+}
+
+
+.description {
+
+    font-family: 'Bebas-Neue';
+
+    font-size:3.2vw ;
+    text-align: center;
+    padding: 96px 0;
+    transition: transform 0.2s;
+}
+
+.description:hover {
+    transform: scale(1.1);
+}
+
+
+.spacer {
+    background-color: white;
+    width: 50%;
+    height: 154px;
+}
+
+.welcome {
+    display: flex;
+    font-size: 1.8vw;
+    font-family:'RobotoMono';
+    line-height: 32px;
+    padding-bottom: 48px;
+    padding-top: 48px;
+}
+
+
+.letsconnect {
+    font-size: 34px;
+    font-weight: 400;
+    font-family: 'Bebas-Neue'
+}
+
+
+.letsconnect {
+    
+}
+
+
+
+.subscribe {
+    background-color: black;
+    width: 147px;
+    height: 48px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 8px;
+    font-family:'RobotoMono' ;
+    font-size: 17px;
+    padding: 1px 10px;
+
+}
+
+.emailbar {
+    justify-content: center;
+    align-content: center;
+    width: 431px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 0 10px;
+
+}
+.frame {
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.handles {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.container {
+        position: relative;
+        margin-left: 0px;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+}
+
+.land {
+    width;
+    margin-left: 0
+
+}
+.overlay {
+    align-content: center;
+    align-items: center;
+    position:absolute;
+    top:0;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center; 
+  }
+
+
+.click {
+    transition: transform 0.4s;
+}
+.click:hover {
+    transform: scale(1.5);
+}
+
+
+
+
+
+
+
+.contactme {
+    width: 169px;
+    height:48px ;
+    justify-content: end;
+    background-color: white;
+    font-family: 'RobotoMono';
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 12px 24px;
+    border: 1px solid black;
+
+}
+
+.al {
+    margin-left: auto;
+    margin-right: 30px;
+
+
+}
+
+
+.copyright {
+    font-family:'Bebas-Neue';
+    font-size: 26px;
+}
+
+footer {
+    padding: 96px 24px;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+}
+
+
+.welcome:hover {position:relative;animation:animateleft 1s}
+
+@keyframes animateleft{
+    from{left:-300px;opacity:0} to{left:0;opacity:1}
+}
