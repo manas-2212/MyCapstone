@@ -7,82 +7,75 @@
     src: url(Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
 }
 
-body {
-    margin: 0;
+html, body {
+    min-height: 100vh;
+    height: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
 }
 
-.landkarado {
-    
 
+
+body{
+    margin: 0 30px;
 }
-    
-nav {   font-family: 'Bebas-Neue';
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
-    }
 
-.nav-head {
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-buttons {
+    margin-right: 1px;
+    align-items: center;
+}
+
+
+.logo {
+    font-family: 'Bebas-Neue';
     font-size: 3vw;
-    margin-left: 20px;
+    font-weight: 400;
+    letter-spacing: -4%;
 }
 
-.navbuttons {
+.home {
+    font-family: 'Bebas-Neue';
+    background-color: white;
+    border: 0;
+    transition: 0.3s;
+    font-size: 2vw;
+    font-weight: 400;
+    letter-spacing: -1%;
+}
 
-        font-family:'Bebas-Neue';
-        word-spacing: 5px;
-        font-size: 25px;
-        margin-left: auto;
-        margin-right: 20px;
-        }        
-    
 .home:hover {
     background-color: gray;
     color: white;
     border-radius: 5px;
-
 }
 
-.Landing-Page {
-    margin-left: 40px;
-    width: 100%;
-    padding: 96px 0;
+.web-main {
+    padding: auto 0;
 }
 
-.tit-le {
-
-    font-family: 'Bebas-Neue';
-    font-weight: lighter;
+.title-head{
+    font-family: "BEBAS-NEUE";
     font-size: 8vw;
+    font-weight: 500;
     text-align: center;
-    width: auto;
+    margin-bottom: 48px;
     height: auto;
-}
-
-.big-img {
     width: 100%;
-    height:auto ;
-    margin-bottom: 96px;
-    justify-items: center;
-
+  }
+  
+.title-image{
+    width:100%;
+    height:auto;
+    align-self: center;
 }
 
-.navbuttons:hover{
-    cursor: pointer;
-}
-
-.home {
-    background-color: white;
-    font-family: 'Bebas-Neue';
-    border:none;
-    font-size: 2vw;
-    transition: 0.3s;
-}
-
-.home:hover {
-    cursor: pointer;
-}
 
 .img-grid {
     height: auto;
@@ -92,19 +85,14 @@ nav {   font-family: 'Bebas-Neue';
     row-gap: 48px;
     column-gap: 48px;
     justify-content: center;
-    margin: 0 15px;
 
 }
 .image-grid:hover {
     transform: scale(1.05);
     border-radius: 2px;
-    box-shadow: ;
+    box-shadow: 0px 0px 29px 3px rgb(143, 143, 143);
 } 
 
-.imagecontainer {
-    margin-left: 20px;
-
-}
 
 
 .image-grid {
@@ -112,25 +100,32 @@ nav {   font-family: 'Bebas-Neue';
     align-items: center;
     width: 100%;
     transition: transform 0.2s;
+    gap: 48px;
+}
+
+.imagecontainer {
+    margin: 48px 0;
 }
 
 .projecttitle {
-    font-size: 1.5vw ;
+    font-size: 1vw;
 }
 
 
 .description {
-
+    
     font-family: 'Bebas-Neue';
-
     font-size:3.2vw ;
     text-align: center;
-    padding: 96px 0;
+    padding: auto 0;
     transition: transform 0.2s;
 }
 
 .description:hover {
     transform: scale(1.1);
+    color: #000000;
+    text-shadow: #bbbbbb 0 0 10px;
+
 }
 
 
@@ -142,47 +137,49 @@ nav {   font-family: 'Bebas-Neue';
 
 .welcome {
     display: flex;
-    font-size: 1.8vw;
+    font-size: 1.79vw;
     font-family:'RobotoMono';
     line-height: 32px;
+    margin: auto 0;
     padding-bottom: 48px;
-    padding-top: 48px;
+}
+
+.land {
+    min-width:100vw;
+    width: 100%;
+    height: auto;
+    max-width: 100vw;
+
 }
 
 
 .letsconnect {
-    font-size: 34px;
+    font-size: 3vw;
     font-weight: 400;
     font-family: 'Bebas-Neue'
 }
 
 
-.letsconnect {
-    
-}
-
-
-
 .subscribe {
     background-color: black;
-    width: 147px;
-    height: 48px;
+    width: 10vw;
+    height: 5.5vh;
     color: white;
     text-align: center;
     justify-content: center;
     align-content: center;
     border-radius: 8px;
     font-family:'RobotoMono' ;
-    font-size: 17px;
-    padding: 1px 10px;
+    font-size: 1.5vw;
+    padding: 1px 1vw;
 
 }
 
 .emailbar {
     justify-content: center;
     align-content: center;
-    width: 431px;
-    height: 48px;
+    width: 30vw;
+    height: 5.5vh;
     border-radius: 8px;
     border: 1px solid black;
     padding: 0 10px;
@@ -199,38 +196,42 @@ nav {   font-family: 'Bebas-Neue';
 .handles {
     display: flex;
     align-items: center;
-    align-content: center;
     justify-content: center;
     gap: 32px;
+    width: 100%;
+    height: auto;
 }
 
 .container {
         position: relative;
-        margin-left: 0px;
         align-items: center;
         justify-content: center;
         justify-items: center;
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        max-width: 100vw;
 }
 
-.land {
-    width;
-    margin-left: 0
 
-}
+
 .overlay {
-    align-content: center;
+    width: 100%;
+    height: auto;
+    justify-content: center;
     align-items: center;
+    align-content: center;
     position:absolute;
     top:0;
     bottom: 0;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5); /* Black see-through */
     color: #f1f1f1;
-    width: 100%;
     color: white;
     font-size: 20px;
     padding: 20px;
     text-align: center; 
+    max-width: 100vw;
   }
 
 
@@ -242,9 +243,10 @@ nav {   font-family: 'Bebas-Neue';
 }
 
 
-
-
-
+.social {
+    width: 100%;
+    height: auto;
+}
 
 
 .contactme {
@@ -258,28 +260,52 @@ nav {   font-family: 'Bebas-Neue';
     font-weight: 400;
     padding: 12px 24px;
     border: 1px solid black;
-
 }
 
-.al {
-    margin-left: auto;
-    margin-right: 30px;
-
-
-}
-
+.contactme:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contactme:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contactme::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+  }
+  
+  .contactme::after {
+    background-color: #fff;
+  }
+  
+  .contactme:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+  }
+  
 
 .copyright {
     font-family:'Bebas-Neue';
-    font-size: 26px;
+    font-size: 2.5vw;
 }
 
 footer {
-    padding: 96px 24px;
-    align-items: center;
-    width: 100%;
-    height: auto;
-
+    min-height: 10vh;
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+    flex-shrink: 0;
 }
 
 
@@ -288,3 +314,19 @@ footer {
 @keyframes animateleft{
     from{left:-300px;opacity:0} to{left:0;opacity:1}
 }
+
+@media (max-width: 400px) {
+    .title-head {
+        font-size: 6vw; 
+    }
+
+    .emailbar, .subscribe {
+        width: 100%;
+    }
+
+    .img-grid {
+        grid-template-columns: repeat(2, 1fr); 
+        row-gap: 24px;
+    }
+}
+
