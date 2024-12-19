@@ -52,7 +52,7 @@ nav{
 }
 
 .home:hover {
-    background-color: gray;
+    background-color: rgb(35, 35, 35);
     color: white;
     border-radius: 5px;
 }
@@ -69,7 +69,15 @@ nav{
     margin-bottom: 48px;
     height: auto;
     width: 100%;
+    transition-duration: 0.2s;
   }
+
+  .title-head:hover {
+    transform: scale(1.05);
+    color: #000000;
+    text-shadow: #bbbbbb 0 0 10px;
+
+}
   
 .title-image{
     width:100%;
